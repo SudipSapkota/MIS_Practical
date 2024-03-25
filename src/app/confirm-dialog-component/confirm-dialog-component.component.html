@@ -1,0 +1,35 @@
+<div class="dialog-content">
+   
+   
+   
+  <button mat-icon-button class="close-button" (click)="closeDialog()" style="margin-left: 550px;">
+    
+    <mat-icon aria-label="Close dialog" >close</mat-icon>
+  </button>
+
+  
+  <div id="products-component">
+    <h2 style="text-align: center;justify-content: center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Cart</h2>    
+    
+    <div class="product-container">
+        <div class="product-image-container">
+            <img src="{{data.productimage }}" alt="{{data.productName }}" class="zoom-image">
+        </div>
+        <h3>{{ data.productName }}</h3>
+        <p>{{data.productId}}</p>
+        <span>${{data.productPrice }}</span>
+        <div class="s" style="float: right;">
+           <!-- // <button (click)="addToCart(product)">Add to Cart</button> -->
+        </div>
+    </div>
+</div>
+
+<div class="zoomed-image-container" style="display: none;">
+    <div class="zoomed-image"></div>
+</div>
+<button (click)="submitPayment(data.productPrice)" class="esewa-button">Pay via eSewa</button>
+
+
+</div>
+
+

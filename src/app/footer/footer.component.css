@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a box-sizing border-box model to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Style the footer container */
+.Emart-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the footer content section */
+.Emart-footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style each footer section */
+.Emart-footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Style heading in each section */
+.Emart-footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style paragraph in each section */
+.Emart-footer-section p {
+    margin-bottom: 5px;
+}
+
+/* Style the Quick Links list */
+.Emart-footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style links in the Quick Links list */
+.Emart-footer-section a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Style links on hover in the Quick Links list */
+.Emart-footer-section a:hover {
+    color: #ffd700; /* Change to your desired hover color */
+}
+
+/* Style the social media icons */
+.social-media-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Style each social media icon */
+.social-media-icons li {
+    margin-right: 10px;
+}
+
+/* Style the copyright text */
+.Emart-footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Style the font awesome icons */
+.fab {
+    font-size: 1.2em;
+}
+
+/* Add space between font awesome icon and link */
+.social-media-icons a {
+    display: flex;
+    align-items: center;
+}
